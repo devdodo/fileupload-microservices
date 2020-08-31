@@ -1,0 +1,47 @@
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    color: rgb(34, 34, 34);
+    background-color: rgb(236, 240, 241);
+    text-align: center;
+}
+
+div {
+    display: block;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+ol{
+    list-style-position: inside;
+}
+
+.view {
+    position: relative;
+    width: 60%;
+    min-width: 400px;
+    margin: 40px auto auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(170, 170, 170);
+    border-image: initial;
+    padding: 20px;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+input#button {
+    width: 230px;
+}
+
+input {
+    display: block;
+    position: relative;
+    margin: 10px auto;
+}
